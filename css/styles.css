@@ -1,0 +1,239 @@
+:root {
+	/*Fonts*/
+	--main-font: "Roboto", sans-serif;
+	--secondary-font: "Raleway";
+
+	/*Text colors*/
+	--main-txt-cl: #212121;
+	--button-cl: #2196f3;
+	--grey-txt-cl: #757575;
+	--white-txt-cl: #ffffff;
+	/*Background color*/
+	--footer-bg-cl: #2f303a;
+	--main-bg-cl: #f5f5f5;
+	--white-bg-cl: #ffffff;
+	--light-bg-cl: #f5f4fa;
+
+	/*Others*/
+}
+
+/*header*/
+
+body {
+	font-family: var(--main-font);
+	color: var(--main-txt-cl);
+	background-color: var(--white-bg-cl);
+	font-size: 14px;
+	letter-spacing: 0.03em;
+}
+.logo {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	letter-spacing: 0.03em;
+	color: #000000;
+}
+.logocolor {
+	font-family: var(--secondary-font);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	letter-spacing: 0.03em;
+	color: var(--button-cl);
+}
+.logo-footer {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	letter-spacing: 0.03em;
+	color: var(--white-txt-cl);
+}
+.header .link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--main-txt-cl);
+	background-color: var(--white-bg-cl);
+}
+.link-current {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--button-cl);
+}
+
+.header .link:hover,
+.header .link:focus {
+	color: var(--button-cl);
+}
+
+.header .link-contact {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
+	color: var(--grey-txt-cl);
+}
+.header .link-contact:hover,
+.header .link-contact:focus {
+	color: var(--button-cl);
+}
+
+/*hero (shapka)*/
+
+.hero {
+	background: #2f303a;
+}
+.hero-tx {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: calc(60 / 44);
+	letter-spacing: 0.06em;
+	color: var(--white-txt-cl);
+	text-transform: uppercase;
+	text-align: center;
+}
+.hero-button {
+	background-color: var(--button-cl);
+	color: var(--white-txt-cl);
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+/*feature*/
+
+.feature-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+.feature-txt {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	color: var(--grey-txt-cl);
+}
+
+.section-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: calc(42 / 36);
+	letter-spacing: 0.03em;
+}
+
+/*team*/
+.team {
+	background: var(--light-bg-cl);
+}
+.team-box {
+	background: var(--white-bg-cl);
+}
+
+.name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	letter-spacing: 0.03em;
+}
+.post {
+	font-size: 16px;
+	line-height: calc(19 / 16);
+	letter-spacing: 0.03em;
+
+	color: var(--grey-txt-cl);
+}
+
+/*footer*/
+
+.footer {
+	background: #2f303a;
+}
+.adress-name {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: var(--white-txt-cl);
+	font-style: normal;
+}
+.adress-name:hover,
+.adress-name:focus {
+	color: var(--button-cl);
+}
+.foot-contact {
+	font-size: 14px;
+	line-height: calc(24 / 14);
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+	font-style: normal;
+}
+.foot-contact:hover,
+.foot-contact:focus {
+	color: var(--button-cl);
+}
+
+/*portfolio*/
+
+.button-filter {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: calc(26 / 16);
+	letter-spacing: 0.03em;
+	font-family: var(--main-font);
+	color: var(--main-txt-cl);
+	background-color: var(--light-bg-cl);
+	cursor: pointer;
+}
+
+.button-filter:hover,
+.button-filter:focus {
+	background-color: #2196f3;
+	color: var(--white-txt-cl);
+}
+
+.project-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: calc(36 / 18);
+	letter-spacing: 0.06em;
+}
+.project-subtitle {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	letter-spacing: 0.03em;
+	color: var(--grey-txt-cl);
+}
+/*reset*/
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
